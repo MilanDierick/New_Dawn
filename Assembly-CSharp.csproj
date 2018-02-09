@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{C9F5556D-9865-1D23-2793-6F7E5D6721D1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -52,10 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\World\Objects\MovableObject.cs" />
-    <Compile Include="Assets\World\Objects\StaticObject.cs" />
-    <Compile Include="Assets\World\Tile.cs" />
-    <Compile Include="Assets\World\WorldController.cs" />
+    <Compile Include="Assets\WorldContainer\Controllers\WorldController.cs" />
+    <Compile Include="Assets\WorldContainer\Objects\MovableObject.cs" />
+    <Compile Include="Assets\WorldContainer\Objects\StaticObject.cs" />
+    <Compile Include="Assets\WorldContainer\Tile.cs" />
+    <Compile Include="Assets\WorldContainer\World.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>

@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 1926331738}
   - component: {fileID: 1926331737}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: WorldController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -229,7 +229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2563ba9568027243bdb96209d781fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tiles: []
 --- !u!4 &1926331738
 Transform:
   m_ObjectHideFlags: 0
